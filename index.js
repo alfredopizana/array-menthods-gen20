@@ -1,7 +1,7 @@
 
 // Array de 5 Frutas
 
-//Se le aplica map . Resultar un array de 5 nuevos elementos
+// Se le aplica map . Resulta un array de 5 nuevos elementos
 
 var frutas = ["apple", "banana","orange","watermelon"]
 //console.log(frutas);
@@ -12,7 +12,7 @@ var nuevasFrutas = frutas.map((fruta,index)=>{
 })
 //console.log(nuevasFrutas);
 
-//Filter intera en el arreglo y 
+//Filter itera en el arreglo y 
 // retorna un nuevo arreglo con los elementos que la cumplan la codicion
 // del filter
 
@@ -69,7 +69,7 @@ let mentoresConA = mentores.reduce(
         }
         //Primera Iteracion - acumulador  [{nombre:"Alfredo"}.....]
         //Segunda Iteracion - acumulador  [{nombre:"Alfredo"},{nombre:"Angel"} .....]
-        //Tercera Iteracion - acumulador  [{nombre:"Alfredo"},{nombre:"Angel"} .....] !Nota: el objecto con nombre Ferdinand no se incluyo en acumulador por lo tanto el arreglo permance con dos elementos
+        //Tercera Iteracion - acumulador  [{nombre:"Alfredo"},{nombre:"Angel"} .....] !Nota: el objeto con nombre Ferdinand no se incluyo en acumulador por lo tanto el arreglo permance con dos elementos
         //Cuarta Iteracion  - acumulador  [{nombre:"Alfredo"},{nombre:"Angel"},{nombre:"Ale"} .....]
         return acumulador;
     },
